@@ -69,7 +69,7 @@ increaseScore();
 //EVENT BUBBLING 
 document.querySelector("#pbtm").addEventListener("click",function(details){
     var clickedNumber = Number(details.target.textContent);
-    if(hitrn == clickedNumber)
+    if(hitrn === clickedNumber)
     {
         increaseScore();
         makebubble();
